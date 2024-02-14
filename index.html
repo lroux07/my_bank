@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My bank</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>My bank</h1>
+        <img src="/assets/img/bars-solid.svg" alt="menu">
+      </nav>
+    </header>
+    <main>
+      <h2>Solde total:</h2>
+      <p id="balence">0</p>
+      <form action="" method="post">
+        <label for="receive">demander de l'argent:</label>
+        <!-- <select name="receive" id="receive">
+          <option value="friends">Séléctionez un ami</option>
+        </select> -->
+        <input type="number" id="receive" placeholder="Ecrivez ici">
+        <label for="send">Enoyer de l'argent:</label>
+        <!-- <select name="receive" id="receive">
+          <option value="friends">Séléctionez un ami</option>
+        </select> -->
+        <input type="number" id="send" placeholder="Ecrivez ici">
+        <button>Valider</button>
+      </form>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
